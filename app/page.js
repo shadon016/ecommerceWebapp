@@ -6,7 +6,7 @@ export default async function Home() {
   const products = await getAllProducts();
 
   return (
-    <div className="flex">
+    <div className="flex gap-6">
       <div>
         <Filter />
       </div>
